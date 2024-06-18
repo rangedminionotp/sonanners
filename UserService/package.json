@@ -1,0 +1,45 @@
+{
+  "name": "userservice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+     "bcrypt": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-graphql": "*",
+    "graphql": "*",
+    "graphql-request": "*",
+    "graphql-playground-middleware-express": "*",
+    "jsonwebtoken": "*",
+    "pg": "*",
+    "reflect-metadata": "*",
+    "type-graphql": "*"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "*",
+    "@types/express": "*",
+    "@types/jest": "*",
+    "@types/jsonwebtoken": "*",
+    "@types/node": "*",
+    "@types/pg": "*",
+    "@types/supertest": "*",
+    "eslint": "*",
+    "eslint-config-typescript": "*",
+    "bestzip": "*",
+    "jest": "*",
+    "nodemon": "*",
+    "supertest": "*",
+    "ts-jest": "*",
+    "ts-node": "*",
+    "ts-postgres": "*",
+    "typescript": "*",
+    "msw": "*",
+    "whatwg-fetch": "*" 
+  }
+}
